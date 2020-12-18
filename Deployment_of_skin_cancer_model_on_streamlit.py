@@ -53,7 +53,7 @@ Original file is located at
 #   else:
 #     st.write("Sorry, you have skin cancer disease kindly contact your doctor.")
 
-!ngrok authtoken 1lWUdS0U3Wx3MIr4kaaXKD5EXA0_5W93S5b4a7cUSx1bD8wdp
+#!ngrok authtoken XXXXXXXXXXXXXXXXX 
 
 !nohup streamlit run skin_cancer.py &
 
@@ -66,49 +66,7 @@ public_url
 
 !cat /content/nohup.out
 
-ngrok.kill()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#ngrok.kill()
 
 
 
